@@ -15,4 +15,9 @@ public class Demo2Application {
     public String helloWorld() {
         return "Hello, World!";
     }
+
+    @GetMapping("/dev")
+    public String helloJava() {
+        return "Hello, Java!";
+    }
 }
